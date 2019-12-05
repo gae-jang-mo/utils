@@ -1,6 +1,5 @@
 package com.gaejangmo.utils;
 
-import org.apache.commons.lang3.ObjectUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
@@ -60,6 +59,4 @@ class StringUtilsTest {
     void isNotBlank_ShouldReturnFalse_ForBlack(String input) {
         assertFalse(StringUtils.isNotBlank(input));
     }
-
-
 }

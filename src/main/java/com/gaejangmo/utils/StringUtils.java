@@ -8,7 +8,6 @@ public class StringUtils {
         return input == null || input.trim().isEmpty();
     }
 
-
     public static boolean isNotBlank(final String input) {
         return !isBlank(input);
     }
@@ -22,7 +21,7 @@ public class StringUtils {
     }
 
     public static boolean isNull(final String input) {
-        return input ==null;
+        return input == null;
     }
 
     public static boolean isNotNull(final String input) {
